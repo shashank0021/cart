@@ -1,0 +1,57 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.child {
+  border: 2px solid #ccc;
+  padding: 20px;
+  width: 300px;
+  text-align: center;
+}
+
+.child h1 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.child h3 {
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+}
+
+.child button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 1rem;
+  margin: 0 5px;
+}
+
+.child button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.order-details {
+  width: 400px;
+  border: 2px solid grey;
+  margin-top: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+.order-details h1 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+}
+
+.order-details h3 {
+  font-size: 1.2rem;
+}
